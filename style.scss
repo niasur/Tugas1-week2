@@ -1,0 +1,33 @@
+$primary-color: #7064e1;
+$secondary-color: #f7f7f7;
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: $primary-color;
+    padding: 16px;
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}
+
+.welcome {
+    text-align: center;
+    padding: 32px;
+    background-color: $secondary-color;
+    flex: 1;
+}
